@@ -1,0 +1,13 @@
+{
+  "name": "101578443_comp3123_labtest1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "COMP3123 Lab Test 1",
+  "scripts": {
+    "q1": "node q1/lowerCaseWords.js",
+    "q2": "node q2/callbacks.js",
+    "logs:create": "node q3/add.js",
+    "logs:remove": "node q3/remove.js",
+    "test": "node q1/lowerCaseWords.js && node q2/callbacks.js && node q3/add.js && node q3/remove.js"
+  }
+}
